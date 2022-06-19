@@ -32,12 +32,42 @@ const Header = () => {
 
 export default Header;
 
-const Container = styled.div``;
-const Wrapper = styled.div``;
-const LogoNav = styled.div``;
-const Logo = styled.div``;
-const Navigations = styled.div``;
-const CartFav = styled.div``;
-const Navs = styled.div``;
+const Container = styled.div`
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cadetblue;
+`;
+const Wrapper = styled.div`
+  width: 1200px;
+  background-color: beige;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media (max-width: 1200px) {
+    width: 85%;
+  }
+`;
+const LogoNav = styled.div`
+  display: flex;
+`;
+const Logo = styled.div`
+  font-family: poppins;
+  /* font-weight: bold; */
+  margin-right: 70px;
+`;
+const Navigations = styled.div`
+  display: flex;
+`;
+const CartFav = styled.div`
+  display: flex;
+`;
+const Navs = styled.div`
+  display: flex;
+`;
 const Nav = styled.div``;
-const SerchSide = styled.div``;
+const SerchSide = styled.div`
+  display: flex;
+`;
